@@ -1,41 +1,38 @@
 body{
-    background-position: center;
-    background-size: cover;
+    background-size:cover;
 }
 
 .heading{
-    font-size: 30px;
+    font-size: 23px;
     width: 100%;
     margin: 0px;
-}
-
-.heading_1{
-    color: black;
-    font-size: 15px;
-}
-
-#start{
-    width: 130px;
-    font-size: 20px;
-    margin-top: 70px;
-}
-
-.title_object_name{
-    color: black ;
-    font-size: 15px;
-    margin-top: 40px;
-}
-
-#object_name{
-    width: 20%;
-    height: 25px;
-}
-
-canvas{
-
-    background-color:rgba(230, 8, 82, 0.884) ;
-    border: 2px solid white;
-    border-radius: 10px;
-    margin-top: 130px;
     box-shadow: 5px 5px 5px grey;
+}
+
+.heading_div{
+    float: none;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 5px 5px 5px rgba(22, 197, 174, 0.61);
+}
+
+.heading_div2{
+    font-size: 18px;
+}
+
+.result_para_tag{
+    box-shadow: 5px 5px 5px grey;
+    font-size: 20px;
+}
+
+.copy_right_footer{
+    bottom: 0px;
+    background-color: rgb(236, 71, 98);
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    line-height: 3;
 }
